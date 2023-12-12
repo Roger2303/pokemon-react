@@ -1,0 +1,28 @@
+.navbar {
+    background-color: blue;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 28px;
+    color: black;
+}
+
+.links {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.active {
+    color: yellow;
+    font-size: 18px;
+}
